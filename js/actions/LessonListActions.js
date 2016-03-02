@@ -15,11 +15,3 @@ export function getAllLessons() {
     })
   }
 }
-
-export function getAllProducts() {
-  return dispatch => {
-    shop.getProducts(products => {
-      dispatch(receiveProducts(products))
-    })
-  }
-}

@@ -4,3 +4,4 @@ export const DATA_FAILED = 'DATA_FAILED';
 export const TITLE_CHANGED = 'TITLE_CHANGED';
 
 export const RECEIVE_LESSONS = 'RECEIVE_LESSONS';
+export const OPEN_LESSON = 'OPEN_LESSON'
